@@ -70,7 +70,7 @@ GameTimeFrame:Hide()
 --Mail
 
 MiniMapMailFrame:ClearAllPoints()
-MiniMapMailFrame:SetPoint("TOP", Minimap, "TOP", 0, 0)
+MiniMapMailFrame:SetPoint("TOP", Minimap, "TOP", 0, 2)
 MiniMapMailFrame:SetFrameStrata("LOW")
 MiniMapMailIcon:SetTexture("Interface\\Addons\\OobieMinimap\\mail")
 MiniMapMailBorder:Hide()
