@@ -7,9 +7,9 @@ Minimap:SetSize(175, 175)
 
 Minimap:SetBackdrop({
 		bgFile =  "Interface\\ChatFrame\\ChatFrameBackground",
-        edgeFile = "Interface\\Buttons\\WHITE8x8", edgeSize = 1,
+    edgeFile = "Interface\\Buttons\\WHITE8x8", edgeSize = 1,
 		insets = {left = -0, right = -0, top = -0, bottom = -0}
-					})
+})
 Minimap:SetBackdropColor(0,0,0,1)
 Minimap:SetBackdropBorderColor(0,0,0,1)
 
@@ -70,7 +70,7 @@ GameTimeFrame:Hide()
 --Mail
 
 MiniMapMailFrame:ClearAllPoints()
-MiniMapMailFrame:SetPoint("TOPLEFT", Minimap, -1,2)
+MiniMapMailFrame:SetPoint("TOP", Minimap, "TOP", 0, 0)
 MiniMapMailFrame:SetFrameStrata("LOW")
 MiniMapMailIcon:SetTexture("Interface\\Addons\\OobieMinimap\\mail")
 MiniMapMailBorder:Hide()
